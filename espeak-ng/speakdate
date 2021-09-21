@@ -1,0 +1,6 @@
+#!/bin/bash
+
+date +%A | espeak-ng
+date +%d | espeak-ng
+date +%B | espeak-ng
+date +%Y | espeak-ng

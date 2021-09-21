@@ -1,0 +1,7 @@
+#!/bin/bash
+
+date +%X | cut -d":" -f1 | espeak-ng
+espeak-ng "hour"
+date +%X | cut -d":" -f2 | espeak-ng
+espeak-ng "minutes"
+date +%X | cut -d" " -f2 | espeak-ng 
